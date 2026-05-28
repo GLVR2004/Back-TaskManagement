@@ -15,3 +15,4 @@ C:\Users\Huesos\Documents\TaskManagement\TaskManagement.Infrastructure\obj\Debug
 C:\Users\Huesos\Documents\TaskManagement\TaskManagement.Infrastructure\obj\Debug\net10.0\refint\TaskManagement.Infrastructure.dll
 C:\Users\Huesos\Documents\TaskManagement\TaskManagement.Infrastructure\obj\Debug\net10.0\TaskManagement.Infrastructure.pdb
 C:\Users\Huesos\Documents\TaskManagement\TaskManagement.Infrastructure\obj\Debug\net10.0\ref\TaskManagement.Infrastructure.dll
+C:\Users\Huesos\Documents\TaskManagement\TaskManagement.Infrastructure\obj\Debug\net10.0\TaskManagement.Infrastructure.sourcelink.json
