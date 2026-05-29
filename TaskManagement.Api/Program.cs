@@ -17,7 +17,17 @@ builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowAngular", policy => {
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
+
+app.UseCors("AllowAngular");
 
 if (app.Environment.IsDevelopment())
 {
